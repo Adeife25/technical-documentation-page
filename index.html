@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <meta charset="utf-8" />
+  <title>Technical Documentation Page</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <nav id="navbar">
+    <header>Technical Documentation Page</header>
+    <ul>
+      <li><a class="nav-link" href="#JavaScript_and_Java">JavaScript and Java</a></li>
+      <li><a class="nav-link" href="#HTML_for_Beginners">HTML for Beginners</a></li>
+      <li><a class="nav-link" href="#CSS_Layout_Techniques">CSS Layout Techniques</a></li>
+      <li><a class="nav-link" href="#Git_and_GitHub_Workflow">Git and GitHub Workflow</a></li>
+      <li><a class="nav-link" href="#Python_Introduction">Python Introduction</a></li>
+    </ul>
+  </nav>
+    <main id="main-doc">
+     <section class="main-section" id="JavaScript_and_Java">
+       <header>JavaScript and Java</header>
+      <h2>Introduction</h2>
+      <p>JavaScript is a popular programming language used to create dynamic and interactive websites. It runs in the browser and allows developers to enhance user experience by responding to events, manipulating content, and more.</p>
+       <h2>Variables and Data Types</h2>
+       <p>Variables store data values. In JavaScript, you can declare variables using var, let, or const. Common data types include:</p>
+       <ul>
+         <li>String "Hello"</li>
+         <li>Number 42</li>
+         <li>Boolean true or false</li>
+         <li>Null and Undefined</li>
+         <li>Object and Array</li>
+       </ul>
+       <p><strong>js</strong> let name = "Ada";
+const age = 25; </p>
+<h2>Functions</h2>
+<p>Functions are blocks of reusable code. You can define them using the function keyword or as arrow functions.</p>
+<h2>Loops</h2>
+<p>Loops let you run a block of code multiple times.</p>
+<ul>
+  <li>for loop</li>
+  <li>while loop</li>
+  <li>for...of loop</li>
+</ul>
+<h2>Arrays and Objects</h2>
+<p>Arrays store lists of data, while objects store key-value pairs.
+</p>
+  <h2>DOM Manipulation</h2>
+  <p>DOM (Document Object Model) allows JavaScript to change HTML and CSS on the page.</p>
+  <h2>Conclusion</h2>
+  <p>JavaScript adds interactivity and power to web pages. Mastering the basics like variables, functions, and the DOM prepares you for advanced web development.</p>
+     </section>
+  <section class="main-section" id="HTML_for_Beginners">
+  <header>HTML for Beginners</header>
+  <h2>Introduction</h2>
+  <p>HTML (HyperText Markup Language) is the standard language used to create and structure content on the web. It forms the foundation of all websites by defining elements like headings, paragraphs, images, links, and more.</p>
+
+  <h2>Elements and Tags</h2>
+  <p>HTML is made up of elements, which are wrapped in tags. Tags tell the browser how to display the content. Every HTML document starts with a <code>&lt;!DOCTYPE html&gt;</code> declaration followed by the <code>&lt;html&gt;</code> tag.</p>
+  <ul>
+    <li><code>&lt;h1&gt; to &lt;h6&gt;</code>Headings</li>
+    <li><code>&lt;p&gt;</code>Paragraphs</li>
+    <li><code>&lt;a&gt;</code>Links</li>
+    <li><code>&lt;img&gt;</code>Images</li>
+    <li><code>&lt;div&gt;</code>Containers</li>
+  </ul>
+
+  <h2>Attributes</h2>
+  <p>Attributes provide additional information about elements. They're always included in the opening tag and follow a <code>name="value"</code> format. Common attributes include:</p>
+  <ul>
+    <li><code>href</code> for links</li>
+    <li><code>src</code> for images</li>
+    <li><code>alt</code> for alternative text</li>
+    <li><code>class</code>
+     </section>
+    <section class="main-section" id="CSS_Layout_Techniques">
+  <header>CSS Layout Techniques</header>
+
+  <h2>Introduction</h2>
+  <p>CSS Layout Techniques help control how elements are arranged on a webpage. These techniques determine the structure, responsiveness, and visual flow of a website. With proper layout, you can build pages that work on all screen sizes.</p>
+
+  <h2>Box Model</h2>
+  <p>Every HTML element is treated as a box in CSS. The Box Model includes four parts: <strong>content</strong>, <strong>padding</strong>, <strong>border</strong>, and <strong>margin</strong>. Understanding how these parts interact is crucial for spacing and alignment.</p>
+
+  <h2>Display Property</h2>
+  <p>The <code>display</code> property defines how an element appears on the page. Common values include:</p>
+  <ul>
+    <li><code>block</code>Takes up full width</li>
+    <li><code>inline</code>Takes up only as much width as necessary</li>
+    <li><code>inline-block</code>Like inline, but allows setting width/height</li>
+    <li><code>none</code>Hides the element</li>
+  </ul>
+
+  <h2>Positioning</h2>
+  <p>CSS offers several positioning options to place elements precisely:</p>
+  <ul>
+    <li><code>static</code>Default position</li>
+    <li><code>relative</code>Positioned relative to its normal spot</li>
+    <li><code>absolute</code>Positioned relative to its closest positioned ancestor</li>
+    <li><code>fixed</code>Stays in place even when scrolling</li>
+    <li><code>sticky</code>Scrolls until it reaches a defined position</li>
+  </ul>
+
+  <h2>Flexbox</h2>
+  <p>Flexbox is a powerful layout tool that makes it easy to align, space, and distribute elements within a container. It works in one direction (row or column) and is great for building responsive layouts.</p>
+  <ul>
+    <li><code>display: flex</code>Enables Flexbox on a container</li>
+    <li><code>justify-content</code>Aligns items horizontally</li>
+    <li><code>align-items</code>Aligns items vertically</li>
+    <li><code>flex-wrap</code>Allows items to wrap into multiple lines</li>
+  </ul>
+
+  <h2>Grid</h2>
+  <p>CSS Grid Layout allows two-dimensional layout control — both rows and columns. It's ideal for complex designs and full page layouts.</p>
+  <ul>
+    <li><code>display: grid</code> Enables Grid on a container</li>
+    <li><code>grid-template-columns</code> and <code>grid-template-rows</code>Define grid structure</li>
+    <li><code>gap</code>Adds spacing between grid items</li>
+    <li><code>grid-column</code> and <code>grid-row</code>Place items across the grid</li>
+  </ul>
+
+  <h2>Media Queries</h2>
+  <p>Media queries allow you to apply different styles based on screen size or device type. This is essential for creating responsive layouts that work on phones, tablets, and desktops.</p>
+  <p>Example:</p>
+  <pre><code>@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+}</code></pre>
+
+  <h2>Conclusion</h2>
+  <p>CSS Layout Techniques such as the box model, Flexbox, Grid, and media queries are key to building modern, responsive websites. Mastering them gives you the power to control layout, alignment, and responsiveness with precision.</p>
+</section>
+     <section class="main-section" id="Git_and_GitHub_Workflow">
+  <header>Git and GitHub Workflow</header>
+
+  <h2>Introduction</h2>
+  <p>Git is a version control system that tracks changes in code projects, while GitHub is a cloud-based platform for hosting Git repositories. Together, they help developers collaborate, manage versions, and contribute to open-source or team projects.</p>
+
+  <h2>Installing Git</h2>
+  <p>To get started, you need to install Git on your machine. You can download it from <a href="https://git-scm.com" target="_blank">git-scm.com</a>. After installation, set up your identity:</p>
+  <pre><code>git config --global user.name "Your Name"
+git config --global user.email "your@email.com"</code></pre>
+
+  <h2>Basic Git Commands</h2>
+  <ul>
+    <li><code>git init</code>Initialize a new Git repository</li>
+    <li><code>git add .</code>Stage all changes</li>
+    <li><code>git commit -m "Message"</code>Commit changes with a message</li>
+    <li><code>git status</code>Check the state of your working directory</li>
+    <li><code>git log</code> View commit history</li>
+  </ul>
+
+  <h2>Working with GitHub</h2>
+  <p>After creating a repository on GitHub, you can connect your local project to it:</p>
+  <pre><code>git remote add origin https://github.com/yourusername/repository-name.git
+git push -u origin main</code></pre>
+
+  <h2>GitHub Workflow</h2>
+  <p>A typical GitHub workflow includes:</p>
+  <ol>
+    <li>Fork or clone the repository</li>
+    <li>Create a new branch: <code>git checkout -b feature-name</code></li>
+    <li>Make changes and commit them</li>
+    <li>Push the branch to GitHub: <code>git push origin feature-name</code></li>
+    <li>Open a Pull Request (PR) on GitHub</li>
+    <li>Get your changes reviewed and merged into the main branch</li>
+  </ol>
+
+  <h2>Branches</h2>
+  <p>Branches help you work on new features or fixes without affecting the main codebase. Once you're done, you can merge your branch into <code>main</code> using a pull request.</p>
+
+  <h2>Conclusion</h2>
+  <p>Understanding Git and GitHub workflow is essential for modern web development. It helps you collaborate with others, maintain clean code history, and confidently manage changes in any project.</p>
+</section>
+    <section class="main-section" id="Python_Introduction">
+  <header>Python Introduction</header>
+  <h2>Introduction</h2>
+  <p>Python is a high-level, interpreted programming language known for its readability and simplicity. It's widely used for web development, data analysis, automation, artificial intelligence, and more. Python's syntax allows developers to express concepts in fewer lines of code than many other languages.</p>
+
+  <h2>Variables and Data Types</h2>
+  <p>Python uses variables to store data, and the type of data can be automatically inferred. Common data types include:</p>
+  <ul>
+    <li>String - text (e.g., "Hello")</li>
+    <li>Integer - whole numbers (e.g., 42)</li>
+    <li>Float - decimal numbers (e.g., 3.14)</li>
+    <li>Boolean - True or False</li>
+    <li>List - ordered sequence (e.g., [1, 2, 3])</li>
+    <li>Dictionary - key-value pairs (e.g., {"name": "Ada"})</li>
+  </ul>
+  <p><strong>Example:</strong><br>
+  <code>name = "Ada"<br>age = 25<br>is_student = True</code></p>
+
+  <h2>Functions</h2>
+  <p>Functions are defined using the <code>def</code> keyword and allow you to reuse blocks of code.</p>
+  <p><strong>Example:</strong></p>
+  <code>
+  def greet(name):<br>
+  &nbsp;&nbsp;print("Hello, " + name)
+  </code>
+
+  <h2>Loops</h2>
+  <p>Loops in Python are used to repeat actions. The most common types are:</p>
+  <ul>
+    <li><code>for</code> loop - iterates over sequences</li>
+    <li><code>while</code> loop - runs while a condition is true</li>
+  </ul>
+
+  <h2>Conditional Statements</h2>
+  <p>Conditional statements control the flow of a program based on conditions using <code>if</code>, <code>elif</code>, and <code>else</code>.</p>
+  <p><strong>Example:</strong></p>
+  <code>
+  if age &gt; 18:<br>
+  &nbsp;&nbsp;print("Adult")<br>
+  else:<br>
+  &nbsp;&nbsp;print("Minor")
+  </code>
+
+  <h2>Conclusion</h2>
+  <p>Python is beginner-friendly and versatile. Learning its basics—variables, functions, loops, and conditions—forms the foundation for building powerful and efficient applications across many domains.</p>
+</section>
+    </main>
+  </body>
+<html>
