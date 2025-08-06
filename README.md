@@ -34,4 +34,4 @@ Ensuring smooth user experience through responsive design
 
 🚀 Live Preview
 👉 Click here to view Technical Documentation Page
-https://github.com/yourusername/technical-page
+https://adeife25.github.io/technical-documentation-page/
